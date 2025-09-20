@@ -1,0 +1,48 @@
+<svg width="48" height="48" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3B82F6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#14B8A6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Circular background with gradient -->
+  <circle cx="24" cy="24" r="24" fill="url(#logoGradient)" />
+  
+  <!-- CPU Icon (simplified version of Lucide's CPU icon) -->
+  <g fill="white" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Main CPU rectangle -->
+    <rect x="12" y="12" width="24" height="24" rx="2" fill="none" />
+    
+    <!-- Inner rectangle -->
+    <rect x="16" y="16" width="16" height="16" rx="1" fill="none" />
+    
+    <!-- Connection pins - left side -->
+    <line x1="8" y1="16" x2="12" y2="16" />
+    <line x1="8" y1="20" x2="12" y2="20" />
+    <line x1="8" y1="24" x2="12" y2="24" />
+    <line x1="8" y1="28" x2="12" y2="28" />
+    <line x1="8" y1="32" x2="12" y2="32" />
+    
+    <!-- Connection pins - right side -->
+    <line x1="36" y1="16" x2="40" y2="16" />
+    <line x1="36" y1="20" x2="40" y2="20" />
+    <line x1="36" y1="24" x2="40" y2="24" />
+    <line x1="36" y1="28" x2="40" y2="28" />
+    <line x1="36" y1="32" x2="40" y2="32" />
+    
+    <!-- Connection pins - top side -->
+    <line x1="16" y1="8" x2="16" y2="12" />
+    <line x1="20" y1="8" x2="20" y2="12" />
+    <line x1="24" y1="8" x2="24" y2="12" />
+    <line x1="28" y1="8" x2="28" y2="12" />
+    <line x1="32" y1="8" x2="32" y2="12" />
+    
+    <!-- Connection pins - bottom side -->
+    <line x1="16" y1="36" x2="16" y2="40" />
+    <line x1="20" y1="36" x2="20" y2="40" />
+    <line x1="24" y1="36" x2="24" y2="40" />
+    <line x1="28" y1="36" x2="28" y2="40" />
+    <line x1="32" y1="36" x2="32" y2="40" />
+  </g>
+</svg>
